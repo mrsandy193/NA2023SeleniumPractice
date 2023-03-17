@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sample Test" verbose="4">
+
+	<test name="BT BC BM">
+		<classes>
+			<class name="extraTopicAndPractice.A" />
+			<class name="extraTopicAndPractice.C" />
+		</classes>
+	</test>
+
+	<test name="B Test">
+		<classes>
+			<class name="extraTopicAndPractice.B" />
+		</classes>
+	</test>
+
+</suite>
